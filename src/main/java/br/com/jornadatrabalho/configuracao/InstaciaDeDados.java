@@ -12,8 +12,8 @@ public class InstaciaDeDados {
 	@Autowired
 	private ObjetosTeste dbServico;
 
-	//@Bean
-	public void instaciaBaseDeDados() {
-		this.dbServico.instaciaBaseDeDados();
-	}
+//	@Bean
+//	public void instaciaBaseDeDados() {
+//		this.dbServico.instaciaBaseDeDados();
+//	}
 }

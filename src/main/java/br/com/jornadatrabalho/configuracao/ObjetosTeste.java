@@ -22,13 +22,13 @@ public class ObjetosTeste {
 	@Autowired
 	private PasswordEncoder encoder;
 
-	@Bean
+//	@Bean
 	public void instaciaBaseDeDados() {
 
-		String senha = "q";
-		Usuario usuario = new Usuario(null, "Firmino", "11424", senha);
-		usuario.setSenha(encoder.encode(senha));
-		usuarioRepository.save(usuario);
+//		String senha = "q";
+//		Usuario usuario = new Usuario(null, "Firmino", "11424", senha);
+//		usuario.setSenha(encoder.encode(senha));
+//		usuarioRepository.save(usuario);
 
 //		Usuario usuario1 = new Usuario(null, "Andrade", "w", senha);
 //		usuario1.setSenha(encoder.encode(senha));
