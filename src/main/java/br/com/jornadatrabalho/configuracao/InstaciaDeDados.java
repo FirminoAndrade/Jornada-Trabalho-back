@@ -12,7 +12,7 @@ public class InstaciaDeDados {
 	@Autowired
 	private ObjetosTeste dbServico;
 
-	@Bean
+	//@Bean
 	public void instaciaBaseDeDados() {
 		this.dbServico.instaciaBaseDeDados();
 	}
