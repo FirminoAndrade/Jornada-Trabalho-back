@@ -26,8 +26,8 @@ import io.swagger.v3.oas.annotations.Operation;
 import jakarta.validation.Valid;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
-//@CrossOrigin(origins = "https://cadastro-front.vercel.app",  maxAge = 3600)
+//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://jornada-trabalho.vercel.app",  maxAge = 3600)
 @RequestMapping("/api/diaria")
 public class DiariaControle {
 
