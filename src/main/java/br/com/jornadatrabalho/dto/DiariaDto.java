@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 public class DiariaDto {
 	private Long id;
 	private String atividade;
-	private int numero_veiculo;
+	private String numero_veiculo;
 	private int linha;
 	private int km_inicial;
 	private int km_final;

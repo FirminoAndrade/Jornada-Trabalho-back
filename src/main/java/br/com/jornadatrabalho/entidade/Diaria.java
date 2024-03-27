@@ -32,7 +32,7 @@ public class Diaria implements Serializable {
 	@NotEmpty
 	private String atividade;
 	@NotNull
-	private int numero_veiculo;
+	private String numero_veiculo;
 	@NotNull
 	private int linha;
 	private int km_inicial;
